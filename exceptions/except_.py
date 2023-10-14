@@ -2,7 +2,7 @@
 from raise_exceptions import raise_exception_6 as raise_exception
 
 
-def hoge():
+def notice_exception():
     try:
         raise_exception()
     except ValueError as e:
@@ -26,4 +26,5 @@ def hoge():
         print("エラー6が発生しました")
         raise e
 
-hoge()
+
+notice_exception()
